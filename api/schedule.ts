@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import * as XLSX from 'xlsx'
 
-const SHEET_ID = '1bO3d36jArqPEwmvqGtNkUfJByxpNw3ojl6SPdoELYaw'
+const SHEET_ID = '1aTjRqNImTuj8NzVwL7DbijrhssXnC0YGOX_sjXEltBw'
 const EXPORT_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx`
 
 const COLLEGE_MAP: Record<string, string> = {
